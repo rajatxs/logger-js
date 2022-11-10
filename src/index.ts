@@ -36,6 +36,22 @@ export class Logger {
       }
    }
 
+   /** Closes opened log file stream */
+   public off(): Promise<void> {
+      return new Promise((resolve, reject) => {
+         if (this.wstream) {
+            this.wstream.close((err) => {
+               if (err) {
+                  return reject(err)
+               }
+               resolve()
+            })
+         } else {
+            resolve()
+         }
+      })
+   }
+
    /**
     * Creates new log based on given `options`
     * @param options - Log create options
