@@ -1,7 +1,7 @@
 {
   "name": "@rxpm/logger",
   "description": "Simple logger library for NodeJs based applications",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "lib/index.js",
   "type": "commonjs",
   "scripts": {
@@ -18,6 +18,15 @@
     "email": "rxx175@gmail.com",
     "url": "https://github.com/rajatxs"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajatxs/logger-js.git"
+  },
+  "bugs": {
+    "email": "rxx175@gmail.com",
+    "url": "https://github.com/rajatxs/logger-js/issues"
+  },
+  "homepage": "https://github.com/rajatxs/logger-js#readme",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.11.9",
