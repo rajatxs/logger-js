@@ -121,43 +121,43 @@ export class Logger {
     * @param namespace - Log namespace
     * @param args - Values
     */
-   debug(namespace: string, ...args: any[]) {
+   public debug(namespace: string, ...args: any[]) {
       this.writeLog(this.createLog({ level: 'DEBUG', args, namespace }))
    }
 
    /**
-    * Write error log with given `namespace`
+    * Writes error log with given `namespace`
     * @param namespace - Log namespace
     * @param args - Values
     */
-   error(namespace: string, ...args: any[]) {
+   public error(namespace: string, ...args: any[]) {
       this.writeLog(this.createLog({ level: 'ERROR', args, namespace }))
    }
 
    /**
-    * Write info log with given `namespace`
+    * Writes info log with given `namespace`
     * @param namespace - Log namespace
     * @param args - Values
     */
-   info(namespace: string, ...args: any[]) {
+   public info(namespace: string, ...args: any[]) {
       this.writeLog(this.createLog({ level: 'INFO', args, namespace }))
    }
 
    /**
-    * Write fatal log with given `namespace`
+    * Writes fatal log with given `namespace`
     * @param namespace - Log namespace
     * @param args - Values
     */
-   fatal(namespace: string, ...args: any[]) {
+   public fatal(namespace: string, ...args: any[]) {
       this.writeLog(this.createLog({ level: 'FATAL', args, namespace }))
    }
 
    /**
-    * Write warn log with given `namespace`
+    * Writes warn log with given `namespace`
     * @param namespace - Log namespace
     * @param args - Values
     */
-   warn(namespace: string, ...args: any[]) {
+   public warn(namespace: string, ...args: any[]) {
       this.writeLog(this.createLog({ level: 'WARN', args, namespace }))
    }
 }
