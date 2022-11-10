@@ -1,21 +1,38 @@
 {
   "name": "@rxpm/logger",
   "description": "Simple logger library for NodeJs based applications",
-  "version": "1.0.0",
-  "main": "main.js",
-  "type": "module",
+  "version": "2.0.2",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [
     "logger",
     "loggerjs",
     "node-logger"
   ],
+  "files": ["lib/**/*"],
   "author": {
     "name": "Rajat Sharma",
     "email": "rxx175@gmail.com",
     "url": "https://github.com/rajatxs"
   },
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajatxs/logger-js.git"
+  },
+  "bugs": {
+    "email": "rxx175@gmail.com",
+    "url": "https://github.com/rajatxs/logger-js/issues"
+  },
+  "homepage": "https://github.com/rajatxs/logger-js#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  },
   "dependencies": {
-    "chalk": "^5.0.0"
+    "chalk": "^4.1.2"
   }
 }

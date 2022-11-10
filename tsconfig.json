@@ -1,0 +1,20 @@
+{
+   "compilerOptions": {
+      "allowJs": false,
+      "checkJs": false,
+      "outDir": "lib",
+      "target": "ES5",
+      "moduleResolution": "Node",
+      "module": "CommonJS",
+      "sourceMap": true,
+      "declaration": true,
+      "declarationMap": true,
+      "strict": true,
+      "useDefineForClassFields": false,
+      "strictPropertyInitialization": false,
+      "esModuleInterop": true
+   },
+   "include": [
+      "src"
+   ]
+}

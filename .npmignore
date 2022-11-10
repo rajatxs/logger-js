@@ -1,0 +1,8 @@
+src
+temp
+tsconfig.json
+tslint.json
+.prettierrc
+
+*.log
+*.zip
