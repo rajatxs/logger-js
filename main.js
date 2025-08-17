@@ -1,3 +1,10 @@
+/**
+ * File: main.js
+ * Author: Rajat Sharma
+ * Created: 2025-08-16 11:30 PM
+ * License: ISC
+ */
+
 import { resolve, isAbsolute } from 'path';
 import { createWriteStream } from 'fs';
 import { format } from 'util';
